@@ -7211,6 +7211,23 @@ button.menu:focus {
 .icon-sm {
   font-size: 2rem; }
 
+form input[type=text], form textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  width: 100%;
+  padding: 7px 20px;
+  margin: 0;
+  border: 2px solid #BDBDBD;
+  box-sizing: border-box;
+  border-radius: 2rem; }
+
+form input[type=text]:focus, form textarea:focus {
+  box-shadow: 0 0 10px #FFB74D;
+  border: 2px solid #FF9800; }
+
 /*!
  *  Material Design Color Palette by Sergey Kupletsky (@zavoloklom) - http://zavoloklom.github.io/material-design-color-palette/
  *  License - https://github.com/zavoloklom/material-design-color-palette/blob/master/License (MIT license)

@@ -7228,6 +7228,14 @@ form input[type=text]:focus, form textarea:focus {
   box-shadow: 0 0 10px #FFB74D;
   border: 2px solid #FF9800; }
 
+.card {
+  border-radius: 0;
+  box-shadow: 0 3px 15px #E0E0E0; }
+  .card .display-4 {
+    font-weight: 500; }
+  .card sup {
+    font-size: 2rem; }
+
 /*!
  *  Material Design Color Palette by Sergey Kupletsky (@zavoloklom) - http://zavoloklom.github.io/material-design-color-palette/
  *  License - https://github.com/zavoloklom/material-design-color-palette/blob/master/License (MIT license)
@@ -11263,7 +11271,7 @@ main {
 
 @media (min-width: 768px) {
   main {
-    padding-top: 5.5rem; }
+    padding-top: 6rem; }
   .hero {
     height: 600px; }
     .hero .lead {
@@ -11271,7 +11279,7 @@ main {
 
 @media (min-width: 992px) {
   main {
-    padding-top: 7rem; }
+    padding-top: 8rem; }
   .hero {
     height: 760px; } }
 

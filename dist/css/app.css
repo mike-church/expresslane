@@ -7121,8 +7121,8 @@ button.menu:focus {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?171fsr");
-  src: url("../fonts/icomoon.eot?171fsr#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?171fsr") format("truetype"), url("../fonts/icomoon.woff?171fsr") format("woff"), url("../fonts/icomoon.svg?171fsr#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?h86hkb");
+  src: url("../fonts/icomoon.eot?h86hkb#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?h86hkb") format("truetype"), url("../fonts/icomoon.woff?h86hkb") format("woff"), url("../fonts/icomoon.svg?h86hkb#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -7138,6 +7138,27 @@ button.menu:focus {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.icon-internet:before {
+  content: "\e916"; }
+
+.icon-7:before {
+  content: "\e917"; }
+
+.icon-multiple-choice:before {
+  content: "\e918"; }
+
+.icon-devices:before {
+  content: "\e919"; }
+
+.icon-approve:before {
+  content: "\e91a"; }
+
+.icon-warranty:before {
+  content: "\e91b"; }
+
+.icon-efile:before {
+  content: "\e91c"; }
 
 .icon-policy:before {
   content: "\e900"; }
@@ -7204,6 +7225,9 @@ button.menu:focus {
 
 .icon-clock:before {
   content: "\e915"; }
+
+.icon-xl {
+  font-size: 7rem; }
 
 .icon-lg {
   font-size: 4.5rem; }

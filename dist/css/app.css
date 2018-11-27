@@ -7074,6 +7074,9 @@ a:hover {
   text-decoration: none;
   color: #1976D2; }
 
+.text-sentencecase {
+  text-transform: none !important; }
+
 /* Reponsive Video iFrame */
 .video-container {
   position: relative;

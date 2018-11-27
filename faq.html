@@ -49,7 +49,7 @@
 	</nav>
 </header>
 <main>	
-	<section class="py-5 mt-5">
+	<section id="top" class="py-5 mt-5">
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-sm-12 mb-5">
@@ -99,6 +99,7 @@
 			</div>
 		</div>
 	</section>
+	<div id="trigger-top"></div>
 	<section id="general" class="py-5">
 		<div class="container">
 			<div class="row">
@@ -950,10 +951,15 @@
 		</div>
 	</div>
 </footer>
+<div class="top-button" style="opacity:0;" data-aos="fade-up" data-aos-anchor="#trigger-top" data-aos-anchor-placement="top-top">
+	<a href="#top"></a>
+	<i class="icon-sm icon-arrow-up"></i>
+</div>
 
 <script src="dist/js/modernizr-3.6.0.min.js"></script>
 <script src="dist/js/bootstrap.min.js"></script>
 <script src="dist/js/jumpscroll.js"></script>
+<script src="dist/js/aos.js"></script>
 <script type="text/javascript">
 	function openNav() {
 	  document.getElementById("mobileMenu").style.cssText = "opacity:1; pointer-events:auto;";
@@ -963,6 +969,9 @@
 	  document.getElementById("mobileMenu").style.cssText = "opacity:0; pointer-events:none;";
 	  document.body.style.overflow = "auto";
 	}
+</script>
+<script>
+  AOS.init();
 </script>
 </body>
 </html>

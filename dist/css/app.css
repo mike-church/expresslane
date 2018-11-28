@@ -7094,6 +7094,11 @@ a:hover {
   white-space: normal !important;
   text-align: left !important; }
 
+.img-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
 .btn {
   cursor: pointer;
   border-radius: 2rem;
@@ -11337,6 +11342,32 @@ main {
   .hero h1 {
     font-size: 2rem; }
 
+.login {
+  height: 100vh; }
+  .login .logo {
+    height: 100px;
+    width: 143px;
+    background-repeat: no-repeat;
+    background-position: right; }
+  .login .right {
+    position: relative;
+    height: 100vh;
+    padding: 0; }
+  .login .content {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%; }
+    .login .content .inside {
+      min-width: 320px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      padding: 50px 0; }
+
 @media (min-width: 576px) {
   .hero {
     height: 500px; }
@@ -11351,13 +11382,26 @@ main {
   .hero {
     height: 600px; }
     .hero .lead {
-      font-size: 1.8rem; } }
+      font-size: 1.8rem; }
+  .login .left, .login .right {
+    height: 100vh;
+    padding: 0; }
+  .login .left .content {
+    padding: 0 50px; }
+    .login .left .content .display-4 {
+      font-size: 2.5rem; } }
 
 @media (min-width: 992px) {
   main {
     padding-top: 8rem; }
   .hero {
     height: 760px; } }
+
+@media (min-width: 1200px) {
+  .login .left .content {
+    padding: 0 100px; }
+    .login .left .content .display-4 {
+      font-size: 3.5rem; } }
 
 footer {
   text-align: center; }
